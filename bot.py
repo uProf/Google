@@ -31,14 +31,14 @@ except ImportError:
     from duckduckgo_search import DDGS
 
 # مقدارها از متغیر محیطی (environment) خونده میشن؛ برای اجرای محلی میتونی مستقیم اینجا بنویسی
-BOT_TOKEN = os.getenv("BOT_TOKEN", "توکن_باتت")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8982557183:AAEsGFPVq3Bg0ppL17phkuFnFH9y_TBZBsU")
 
 # اختیاری ولی پیشنهاد میشه: پایدارترین منبع جستجو
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
 GOOGLE_CX = os.getenv("GOOGLE_CX", "")
 
-MAX_RESULTS = 20      # تعداد نتایج هر جستجو
-ALBUM_SIZE = 5        # تعداد عکس‌های آلبوم
+MAX_RESULTS = 99      # تعداد نتایج هر جستجو
+ALBUM_SIZE = 15        # تعداد عکس‌های آلبوم
 MAX_SESSIONS = 5      # تعداد جستجوهای فعال برای هر گروه
 DEBUG = False        # لاگ همه‌ی پیام‌هایی که به بات میرسه (بعد از رفع مشکل False کن)
 WINDOW = 4            # چند عکس همزمان دانلود بشه
